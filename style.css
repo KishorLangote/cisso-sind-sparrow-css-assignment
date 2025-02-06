@@ -1,0 +1,180 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #000;
+}
+
+/* header */
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar .navbar-list {
+  display: flex;
+  gap: 20px;
+}
+
+.list-items {
+  list-style: none;
+}
+
+.nav-link {
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.navbar .navbar-end-div {
+  display: flex;
+  gap: 30px;
+}
+
+.icons {
+  display: flex;
+  gap: 0.5rem
+}
+
+
+.fab, .fa {
+  color: white;
+  font-size: 20px;
+}
+
+.btn-dark {
+  border: 1px solid white;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.middle-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.middle-logo img {
+  max-width: 300px;
+  height: auto;
+}
+
+.middle-logo p {
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+
+/* welcome-ghost-section */
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+}
+
+ .col-img img {
+  max-width: 80%;
+  font-size: 15px;
+  padding: 30px 0px;
+  margin-right: 00px;
+}
+
+
+.right-section {
+  margin-top: 0;
+}
+
+.text-primary {
+  color: rgb(84, 84, 240);
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.welcome {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.paragraph {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.bottom-content {
+  display: flex;
+  gap: 1rem;
+  margin-top: 20px;
+  
+}
+
+.bottom-content img {
+  width: 20%;
+  height: auto;
+}
+
+.details {
+  font-size: 30px;
+}
+
+
+/* post writing part */
+
+
+.post-container {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.post-1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.post-image img {
+  border-radius: 15px;
+  margin-bottom: 30px;
+  width:550px;
+}
+
+.poster-image img {
+  border-radius: 10px;
+}
+
+.writing-text {
+  /* font-size: px; */
+  margin-bottom: 15px;
+}
+
+.post-bottom-content {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.bottom-content-image img {
+  width: 70px;
+  height: auto;
+  object-fit: cover;
+}
